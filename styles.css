@@ -3,6 +3,8 @@ html, body{
   padding: 0;
   font-family: 'Rubik', Sans-Serif;
   background: #EEF0F4;
+  color: #432000;
+  user-select: none;
 }
 
 .container{
@@ -42,6 +44,13 @@ button{
   
 }
 
+button:hover{
+  background-color: #432000;
+  cursor: pointer;
+}
+
+
+
 
 ul{
   display: flex;
@@ -59,4 +68,9 @@ ul li{
   border-radius: 8px;
   flex-grow: 1;
   text-align: center;
+}
+
+ul li:hover{
+  background-color: #ffecc7;
+  cursor: pointer;
 }
